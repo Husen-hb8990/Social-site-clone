@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HB Social site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="bs-hb-socialsite.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="float:left">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img class="image" src="hb21.jpg" height="30px" width="100px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="bs-hb-socialsite.html" data-toggle="tooltip" title="Home" style="margin-top:10px;">Home</a></li>
+		<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" data-toggle="tooltip" title="Messages" href="#"><span class="glyphicon glyphicon-envelope"style="margin-top:10px;"></span> Messages
+        <span class="caret"></span></a>
+
+        <ul class="dropdown-menu">
+		<li><a href="#">
+		<img src="relaxing-cat.jpg" class="img-circle border" height="40" width="40" alt="john"> John <span class="badge">10</span></a></li>
+          <li><a href="#">
+			<img src="bootstrap-logo.jpg" class="img-circle border" height="40" width="40" alt="bunny"> Bunny <span class="badge">10</span></a></li>
+			<li><a href="#">
+			<img src="linux-logo.png" class="img-circle border" height="40" width="40" alt="sandy"> Sandy <span class="badge">2</span></a></li>
+			<li><a href="#">
+			<img src="strutshome.png" class="img-circle border" height="40" width="40" alt="smith"> Smith</a></li>
+			<li><a href="#">
+			<img src="dog.jpg" class="img-circle border" height="40" width="40" alt="allen"> Allen <span class="badge">1</span></a></li>
+			<li><a href="#">
+			<img src="rose1.jpg" class="img-circle border" height="40" width="40" alt="jessy"> Jessy <span class="badge">10</span></a></li>
+		</ul>
+		</li>
+
+        
+      </ul>
+      <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" id="search" placeholder="Search..">
+          <span class="input-group-btn">
+		  <span id="alert"></span>
+            <button class="btn btn-default" type="button" onclick="myInputCheck()">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        	<li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" data-toggle="tooltip" title="Hussain" href="#"><img src="hb199.png" style="width:35px;height:35px;border-radius:50%;" class="border"> <span data-toggle="tooltip" data-placement="bottom" title="My Account"> My Account</span>
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Create Page</a></li>
+          <li><a href="#">Create Group</a></li>
+		  <li><a href="#">New Groups <span class="badge">10</span></a></li>
+          <li><a href="#">Create Ads</a></li>
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Activity Log</a></li>
+          <li><a href="#">Settings <span class="glyphicon glyphicon-wrench"></span></a></li>
+          <li><a href="#">Log out <span class="glyphicon glyphicon-log-out"></span></a></li>
+        </ul>
+		</li>
+      </ul>
+    </div>		
+		
+  </div>
+</nav> 
+
+<div class="container text-center margin-top">
+	<div class="row">
+		<div class="col-sm-3 well">
+			<div class="well">
+					<a href="hb199.png" data-toggle="tooltip" title="Shaik Hussain"><img src="hb199.png" style="width:65px;height:65px;border-radius:50%;" class="border"></a><br>
+					<a href="hb199.png">Hussain</a><br>
+					<a href="bs-edit-profile.html" data-toggle="tooltip" title="Edit Profile">My Profile</a><br>
+			</div>
+
+			<div class="well">
+				<p><a href="#">Interests</a></p>
+					<span class="label label-primary">w3Schools</span>
+					<span class="label label-info">News</span>
+					<span class="label label-danger">Blogs</span>
+					<span class="label label-warning">Friends</span>
+					<span class="label label-success">Music</span>
+					<span class="label label-primary">Tech Videos</span>
+			</div>
+
+			<div class="alert alert-success alert-dismissible">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				Hey Hussain..! People are looking your profile. Find out who.
+			</div>
+
+			<div class="alert alert-danger alert-dismissible">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				Hey Hussain..! something is happening. Please login agian..!
+			</div>
+	
+			<div>
+				<a href="bs-hb-social-images.html">Photos</a><br>
+				<a href="bs-embed-video.html">videos</a><br>
+				<a href="#">Events</a><br>
+				<a href="#">Groups</a>
+			</div>
+
+		</div><!--col-sm-3 close-->
+	
+		<div class="col-sm-7 padding-top">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="panel panel-default text-left">
+						<div class="panel-body">
+							<p contenteditable="true">Status: Feeling Red</p>
+							<button type="button" class="btn btn-default btn-sm">
+								<span class="glyphicon glyphicon-thumbs-up"></span> Like
+							</button>
+						</div>
+							
+					</div><!---closing panel-->
+				</div><!---closing of col-sm-12-->
+			</div><!---closing of row-->
+					
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="well">
+						<p>John</p>
+							<img src="relaxing-cat.jpg" class="img-circle border" height="55" width="55" alt="john">
+					</div>
+				</div>
+							
+				<div class="col-sm-9">
+					<div class="well">
+						<p>I had just seen your status..Your status is looking nice and how you feel like that and anything that is very nice to see that, and your are having that is how you are posts your status that are very. </p>
+						</div>
+					</div>
+				</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="well">
+						<p>Robert</p>
+							<img src="paris.jpg" class="img-circle border" height="55" width="55" alt="robert">
+					</div>
+				</div>
+							
+				<div class="col-sm-9">
+					<div class="well">
+						<p>I had just seen your status..Your status is looking nice and how you feel like that and anything that is very nice to see that, and your are having that is how you are posts your status that are very. </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="well">
+						<p>Jessy</p>
+							<img src="javascripthome.png" class="img-circle border" height="55" width="55" alt="jessy">
+					</div>
+				</div>
+							
+				<div class="col-sm-9">
+					<div class="well">
+						<p>I had just seen your status..Your status is looking nice and how you feel like that and anything that is very nice to see that, and your are having that is how you are posts your status that are very. </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="well">
+						<p>Bunny</p>
+							<img src="bootstrap-logo.jpg" class="img-circle border" height="55" width="55" alt="bunny">
+					</div>
+				</div>
+							
+				<div class="col-sm-9">
+					<div class="well">
+						<p>I had just seen your status..Your status is looking nice and how you feel like that and anything that is very nice to see that, and your are having that is how you are posts your status that are very. </p>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div><!---closing of col-sm-7-->
+
+			<div class="col-sm-2 well">
+				<div class="thumbnail">
+					<P><a href="#" data-toggle="tooltip" title="Events">Up coming Events:
+						<span class="glyphicon glyphicon-calendar" style="color:blue"></span></a></p>
+						
+						<img src="sidney.jpg"  alt="sidney" width="400" height="300" data-toggle="tooltip" title="Sidney"> 
+						<P><strong>Sidney</strong></p>
+						<p>Mon.12 March, 2018</p>
+						<a href="http://www.sidney.ca/">
+						<button class="btn btn-primary">Info</button></a>
+					</div>
+					<div class="well">
+						<p>Stories</p>
+							<p>
+								<a href="#">Jessy
+							</p>
+								<img src="javascripthome.png" class="img-circle border" height="55" width="55" alt="jessy"></a><br><br>
+							
+							<p>	
+								<a href="#">Robert
+							</p>
+								<img src="paris1.jpg" class="img-circle border" height="55" width="55" alt="robert"></a><br><br>
+
+							<p>	
+								<a href="#">John
+							</p>
+								<img src="relaxing-cat.jpg" class="img-circle border" height="55" width="55" alt="robert"></a>
+
+
+
+
+					</div>
+			</div>
+</div><!--row closing-->
+</div><!--container closing-->
+
+<footer class="container-fluid text-center">
+ <span style="color:#fff;margin-top:20px">Copyright &#169; 2018 - All Rights Reserved - <a href="#" >&#x210B;&#x212C; </a></span>
+</footer>
+
+<!---script for closing tab-->
+<script src="bs-hb-socialsite.js"></script>
+	
+	
+</body>
+</html>

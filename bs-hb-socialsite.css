@@ -1,0 +1,25 @@
+.well{
+border:1px solid:#dcdcdc;
+}
+
+.btn-sm:hover{
+background-color:red;
+}
+.margin-left{
+margin-left:15px;
+width:25%;
+}
+.border{
+border:2px solid blue;
+}
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+footer a:hover{
+color:red;
+}
+.margin-top{
+margin-top:80px;
+}
